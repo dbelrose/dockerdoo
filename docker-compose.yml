@@ -14,7 +14,7 @@ volumes:
 
 services:
   odoo:
-    image: dbelrose/dockerdoo:${ODOO_VERSION}
+    image: odoo:${ODOO_VERSION}
     env_file: .env
     
     restart: unless-stopped
